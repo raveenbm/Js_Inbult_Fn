@@ -50,7 +50,8 @@ console.log("Total", total);
 
 const numb  = [1,2,3,4,5,6]
 
-let k = numb.map(item => String(item) )
+// let k = numb.map(item => String(item) )
+let k =numb.map(String);
 
 console.log("k",'',k);
 
